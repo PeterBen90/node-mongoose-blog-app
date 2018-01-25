@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-blog-app",
+  "version": "1.0.0",
+  "description": "Blogging app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "hypderdev",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  }
+}
