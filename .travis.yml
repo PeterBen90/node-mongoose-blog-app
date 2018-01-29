@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: A3w6LyrySx7oscaX7V888z0hrMA2MoD/lmyw37laOMx96tULi7dmmTeUZjZIAaQc4Av6tgLVIcboxsVO7qiNWHvzqxm08gN0zLynJ4Dut/sPOYXgmFu1DBn5gB5eU8afDgRvSh5gEMqd90Bf8yBsANG2p9laz9NWWxG+aZseEBRw+Goy9ySBqkVM4zImUKH+rguVcstqrKVp6erkYe7zKOG1j9GShmOHYWNtHJ7xG2Jp04YHhwfSYdDgKByinmQf9l7BgK7hCLmDKHXkcYqTAXwHWUlGg/zkl1kbaAfA3svA4dVhP+nelp9/hBcuC4fgOaC+ApIOrUx8aWNiQrE2a9PpsWsh48bjoBASRKFaiPIh6auzmrMlmo4yv+hO9BaIE3UGIyO2XkRi+BsjPx2YXrzsXjfxYGob1CQmPujVHdE2gnVSeuYe4gYUupOVx5n3HbAptYb2pQy4A4lIX7tKeadgF8vBPTo2XirC+7QCNUCcqmWNCgJaOYo5iR1EzccT2YHqtjwHEqrrQFI172yFXM+kmqUf6ENqLIRb50N6J6yednxIdeL4SQW81O+5t7zjqPePsuSA0EmopZonwitZ161G1V900wfwf43irlKi8ZkSNev+gH+eRLGECPp+CM8cH0g2NQku1cUm6GgZKhbudfvf3rZLjfV7SVXEEO1KG+s=
+  app: salty-bayou-11983
+  on:
+    repo: PeterBen90/node-mongoose-blog-app
