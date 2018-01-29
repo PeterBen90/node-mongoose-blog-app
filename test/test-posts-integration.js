@@ -171,7 +171,7 @@ describe('Posts API resource', function() {
 
   describe('DELETE endpoint', function() {
 
-    it('delete a postt by id', function() {
+    it('delete a post by id', function() {
 
       let post;
 
